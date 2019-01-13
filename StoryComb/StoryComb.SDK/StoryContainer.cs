@@ -1,29 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace StoryComb.SDK
 {
     public class StoryContainer : IStoryContainer
     {
-        private readonly IEnumerable<string> characters;
-        private readonly IEnumerable<string> goals;
-        private readonly IEnumerable<string> twists;
+        private readonly string[] characters;
+        private readonly string[] goals;
+        private readonly string[] twists;
 
         public StoryContainer(
-            IEnumerable<string> characters, IEnumerable<string> goals, IEnumerable<string> twists)
+            string[] characters, string[] goals, string[] twists)
         {
-            if (characters == null || characters.Count() == 0)
+            if (characters == null || characters.Length == 0)
             {
                 throw new ArgumentException(nameof(characters));
             }
 
-            if (goals == null || goals.Count() == 0)
+            if (goals == null || goals.Length == 0)
             {
                 throw new ArgumentException(nameof(goals));
             }
 
-            if (twists == null || twists.Count() == 0)
+            if (twists == null || twists.Length == 0)
             {
                 throw new ArgumentException(nameof(twists));
             }
@@ -33,10 +31,10 @@ namespace StoryComb.SDK
             this.twists = twists;
         }
 
-        public IEnumerable<string> Characters => this.characters;
+        public string[] Characters => this.characters;
 
-        public IEnumerable<string> Goals => this.goals;
+        public string[] Goals => this.goals;
 
-        public IEnumerable<string> Twists => this.twists;
+        public string[] Twists => this.twists;
     }
 }

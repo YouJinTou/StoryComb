@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace StoryComb.SDK
+﻿namespace StoryComb.SDK
 {
     public class SampleStoryContainer : IStoryContainer
     {
-        public IEnumerable<string> Characters
+        public string[] Characters
         {
             get
             {
@@ -25,7 +23,7 @@ namespace StoryComb.SDK
             }
         }
 
-        public IEnumerable<string> Goals
+        public string[] Goals
         {
             get
             {
@@ -49,7 +47,7 @@ namespace StoryComb.SDK
             }
         }
 
-        public IEnumerable<string> Twists
+        public string[] Twists
         {
             get
             {

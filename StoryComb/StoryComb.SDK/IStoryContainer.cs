@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
-
-namespace StoryComb.SDK
+﻿namespace StoryComb.SDK
 {
     public interface IStoryContainer
     {
-        IEnumerable<string> Characters { get; }
+        string[] Characters { get; }
 
-        IEnumerable<string> Goals { get; }
+        string[] Goals { get; }
 
-        IEnumerable<string> Twists { get; }
+        string[] Twists { get; }
     }
 }
