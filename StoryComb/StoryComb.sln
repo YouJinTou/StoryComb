@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryComb.ConsoleRunner", "StoryComb.ConsoleRunner\StoryComb.ConsoleRunner.csproj", "{E515579B-46AB-47B3-9422-537CE5750C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryComb.SDK", "StoryComb.SDK\StoryComb.SDK.csproj", "{4D24BB13-1411-4D48-859B-99CB4D1ED38A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E515579B-46AB-47B3-9422-537CE5750C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E515579B-46AB-47B3-9422-537CE5750C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E515579B-46AB-47B3-9422-537CE5750C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E515579B-46AB-47B3-9422-537CE5750C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D24BB13-1411-4D48-859B-99CB4D1ED38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D24BB13-1411-4D48-859B-99CB4D1ED38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D24BB13-1411-4D48-859B-99CB4D1ED38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D24BB13-1411-4D48-859B-99CB4D1ED38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {404932E1-F57F-4B6C-A082-1ADAE74408EC}
+	EndGlobalSection
+EndGlobal
