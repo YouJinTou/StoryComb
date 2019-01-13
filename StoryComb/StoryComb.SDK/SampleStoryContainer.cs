@@ -19,6 +19,13 @@
                     "Telekinetic nun",
                     "Fat samurai",
                     "Virgin Greek god",
+                    "Ordinary boy",
+                    "Buff hacker",
+                    "Kid prodigy",
+                    "Fairy with one wing",
+                    "Tooth cavity",
+                    "Forest titan",
+                    "Lone rider",
                 };
             }
         }
@@ -43,6 +50,11 @@
                     "Hijack president's car",
                     "Build a moat",
                     "Distribute massive inheritance",
+                    "Save the jungle",
+                    "Assemble a team and prevent assassins from killing the king",
+                    "Hack hourglass of life to win final battle",
+                    "Unleash godlike potential after being cast down to Earth",
+                    "Become the most powerful Essence holder"
                 };
             }
         }
