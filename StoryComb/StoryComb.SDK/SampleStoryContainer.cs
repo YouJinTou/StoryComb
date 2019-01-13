@@ -42,7 +42,7 @@
                     "Prevent train crash",
                     "Hijack president's car",
                     "Build a moat",
-                    "Distribute massiviants",
+                    "Distribute massive inheritance",
                 };
             }
         }
