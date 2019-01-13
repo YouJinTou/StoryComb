@@ -2,7 +2,7 @@
 
 namespace StoryComb.SDK
 {
-    public class StoryGenerator
+    public class StoryGenerator : IStoryGenerator
     {
         private readonly IStoryContainer storyContainer;
         private readonly Random random;
